@@ -61,5 +61,41 @@ search|O(n)|O(n)|
 - 어떤 특정 요소를 빠르게 읽어야 할 때  
 - 데이터 사이즈가 자주 바뀌지 않으며, 요소들이 자주 추가되거나 삭제되지 않을 때  
 
+<br>
 
+## 2. ArrayList
+- 엄밀히 말하면 배열과 다르지만 쉽게 생각해서 배열이라고 보면 됨
+- 원하는 값을 추가 또는 삭제할 때, 배열의 크기가 n일 때 최대 n번의 이동이 필요
+- 시간복잡도가 O(n)
+- 파이썬에서는 arr = [], arr = list 와 같은 방식으로 사용
+
+<br>
+
+### 1. ArrayList를 사용할 때 주의점
+- 배열의 삽입과 삭제가 빈번히 일어나는 문제에서는 시간복잡도를 신경써야함
+
+<br>
+
+### 2. ArrayList를 사용하는 예제
+백준 10818번: 최소, 최대 문제
+
+https://www.acmicpc.net/problem/10818
+
+- 풀이
+```python
+N = int(input())
+arr_list = list(map(int, input().split()))
+
+max_num = arr_list[0]
+min_num = arr_list[0]
+
+for num in arr_list:
+    if num > max_num:
+        max_num = num
+    if num < min_num:
+        min_num = num
+
+print(min_num, max_num)
+
+```
 
