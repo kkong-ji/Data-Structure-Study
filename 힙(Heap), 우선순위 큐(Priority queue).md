@@ -15,4 +15,10 @@
   최댓값을 찾는데 O(1)이 소요되는 매우 빠른 자료구조  
 - 데이터의 삽입/삭제가 많을 때 최댓값을 정말 빠른 속도로 찾을 수 있음
 
-### 최대힙 동작 과정
+<br>
+
+![image](https://user-images.githubusercontent.com/87354210/216893461-5d4fdcf1-7f67-4050-b8d2-110e0bd87e32.png)
+
+(차례대로 7, 3, 6, 1, 2, 4 를 추가한 모습)  
+이 상태에서 부모 노드보다 큰 값인 8을 추가한다면?  
+![image](https://user-images.githubusercontent.com/87354210/216893765-17f52e6a-e9bc-4dc0-afe8-69d5de3dd265.png)
