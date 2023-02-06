@@ -17,8 +17,19 @@
 
 <br>
 
-![image](https://user-images.githubusercontent.com/87354210/216893461-5d4fdcf1-7f67-4050-b8d2-110e0bd87e32.png)
+### <최대힙 동작 과정>  
 
-(차례대로 7, 3, 6, 1, 2, 4 를 추가한 모습)  
-이 상태에서 부모 노드보다 큰 값인 8을 추가한다면?  
+1. 차례대로 7, 3, 6, 1, 2, 4 를 추가하면 다음과 같음 
+
+![image](https://user-images.githubusercontent.com/87354210/216893461-5d4fdcf1-7f67-4050-b8d2-110e0bd87e32.png)
+ 
+2. 이 상태에서 부모 노드보다 큰 값인 8을 추가한다면?  
+
 ![image](https://user-images.githubusercontent.com/87354210/216893765-17f52e6a-e9bc-4dc0-afe8-69d5de3dd265.png)
+
+3. 8의 부모노드 6은 8보다 작으므로 위치를 바꿈.  
+8의 부모노드 7은 8보다 작으므로 위치를 바꿈.  
+
+![image](https://user-images.githubusercontent.com/87354210/216894296-429c0be9-e984-43dd-bc64-5b659546744a.png)  
+
+결과적으로 루트 노드의 값은 8로 8이 모든 노드 중에서 가장 큰 값임을 볼 수 있음.
