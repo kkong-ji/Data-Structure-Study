@@ -37,6 +37,10 @@
 <br>
 
 ### 4. BFS
+
+![image](https://user-images.githubusercontent.com/87354210/220269314-aef6663c-b7f3-4a85-9ce2-751fa5863f92.png)
+
+
 - `BFS (Breadth First Search)` : 너비 우선 탐색
 - 그래프에서 가까운 노드부터 우선적으로 탐색하는 알고리즘
 - 자료구조 중 큐(Queue) 를 이용하여 구현할 수 있음
@@ -81,4 +85,15 @@
 ### 4-2. BFS의 시간복잡도
 > BFS의 시간 복잡도 : 한 정점에서 연결된 모든 정점을 탐색.   
 > 그러므로 O(이동 가능한 정점의 개수)의 시간복잡도 소요
+
+<br>
+
+### 5. DFS 
+![image](https://user-images.githubusercontent.com/87354210/220269391-2d076ba5-dae5-4055-8f36-30e4301c8142.png)
+
+- `DFS (Depth First Search)` : 깊이 우선 탐색
+- 현재 정점에서 갈 수 있는 점들까지 계속 깊게 들어가면서 탐색하는 방법
+- BFS와 그림과 형태는 같지만 탐색하는 순서가 다름
+- 주로 배열을 이용하여 그래프를 만들고 각 정점에 연결된 정점들을 재귀함수를 이용하여 탐색
+
 
